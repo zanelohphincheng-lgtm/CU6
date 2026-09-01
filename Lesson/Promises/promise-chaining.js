@@ -2,8 +2,8 @@
 // The first .then() has the original value console out first, and it return the new value as the original value plus 1
 let promise = new Promise((resolve, reject) => {
     setTimeout(() => {
-        // resolve(1);
-        reject("Promise is rejected");
+        resolve(1);
+        // reject("Promise is rejected");
     }, 1000);
 });
 
